@@ -15,6 +15,10 @@
 		171B0CDB23CFF12D00A4365B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171B0CD923CFF12D00A4365B /* LaunchScreen.storyboard */; };
 		171B0CE623CFF12D00A4365B /* Dice_RollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B0CE523CFF12D00A4365B /* Dice_RollerTests.swift */; };
 		171B0CF123CFF12D00A4365B /* Dice_RollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B0CF023CFF12D00A4365B /* Dice_RollerUITests.swift */; };
+		171B0D0023D02D9D00A4365B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171B0CFF23D02D9D00A4365B /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		171B0D0423D0336200A4365B /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 171B0D0123D0336100A4365B /* torpedo.mp3 */; };
+		171B0D0523D0336200A4365B /* rolldice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 171B0D0223D0336200A4365B /* rolldice.mp3 */; };
+		171B0D0623D0336200A4365B /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 171B0D0323D0336200A4365B /* failwah.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		171B0CEC23CFF12D00A4365B /* Dice RollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice RollerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		171B0CF023CFF12D00A4365B /* Dice_RollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_RollerUITests.swift; sourceTree = "<group>"; };
 		171B0CF223CFF12D00A4365B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171B0CFF23D02D9D00A4365B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		171B0D0123D0336100A4365B /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		171B0D0223D0336200A4365B /* rolldice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rolldice.mp3; sourceTree = "<group>"; };
+		171B0D0323D0336200A4365B /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failwah.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				171B0D0023D02D9D00A4365B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +92,7 @@
 				171B0CE423CFF12D00A4365B /* Dice RollerTests */,
 				171B0CEF23CFF12D00A4365B /* Dice RollerUITests */,
 				171B0CCC23CFF12900A4365B /* Products */,
+				171B0CFE23D02D9D00A4365B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +109,9 @@
 		171B0CCD23CFF12900A4365B /* Dice Roller */ = {
 			isa = PBXGroup;
 			children = (
+				171B0D0323D0336200A4365B /* failwah.mp3 */,
+				171B0D0223D0336200A4365B /* rolldice.mp3 */,
+				171B0D0123D0336100A4365B /* torpedo.mp3 */,
 				171B0CCE23CFF12900A4365B /* AppDelegate.swift */,
 				171B0CD023CFF12900A4365B /* SceneDelegate.swift */,
 				171B0CD223CFF12900A4365B /* ViewController.swift */,
@@ -126,6 +139,14 @@
 				171B0CF223CFF12D00A4365B /* Info.plist */,
 			);
 			path = "Dice RollerUITests";
+			sourceTree = "<group>";
+		};
+		171B0CFE23D02D9D00A4365B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				171B0CFF23D02D9D00A4365B /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				171B0CDB23CFF12D00A4365B /* LaunchScreen.storyboard in Resources */,
+				171B0D0623D0336200A4365B /* failwah.mp3 in Resources */,
+				171B0D0523D0336200A4365B /* rolldice.mp3 in Resources */,
 				171B0CD823CFF12D00A4365B /* Assets.xcassets in Resources */,
+				171B0D0423D0336200A4365B /* torpedo.mp3 in Resources */,
 				171B0CD623CFF12900A4365B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
