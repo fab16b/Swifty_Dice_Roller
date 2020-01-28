@@ -65,6 +65,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate{
         }
         
         rollSound.play()
+        rollSound.currentTime = 0;
         
         if (numberPressed == 0) {
             failSound.play()
